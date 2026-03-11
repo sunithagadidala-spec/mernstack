@@ -1,0 +1,36 @@
+*{
+    font-family:'Times New Roman',Times,serif;
+}
+body{
+    background-color:#850fd3;
+}
+h2{
+    text-align:centre;
+    color: #ddd015;
+}
+form{
+    background-color:rgb(17, 247, 216);
+    width:350px;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea{
+    width=100%;
+    padding:8px;
+    border:1px solid rgb(201, 24, 186);
+}
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right:5px;
+}
+input[type="submit"]{
+    background-color: rgb(223, 60, 60));
+    color: #0e0e0e;
+    border:color-mix(in hs1 shorter hue, color percentage);
+    padding:10px;
+    width:fit-content;
+}
